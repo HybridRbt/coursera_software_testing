@@ -5,13 +5,13 @@ public class HW1 {
         int expectedNumber = 3;
 
         System.out.println("Testing function Add.\n");
-        System.out.println("First number is: " + number1 +"\n");
-        System.out.println("Second number is: " + number2 +"\n");
+        System.out.println("First number is: " + number1);
+        System.out.println("Second number is: " + number2);
 
         int re = Add(number1, number2);
 
-        System.out.println("Expected Result is: " + expectedNumber +"\n");
-        System.out.println("Actual Result is: " + re +"\n");
+        System.out.println("Expected Result is: " + expectedNumber);
+        System.out.println("Actual Result is: " + re);
     }
 
     public int Add(int num1, int num2) {
