@@ -13,9 +13,10 @@ public class HW1 {
         System.out.println("Expected Result is: " + expectedNumber +"\n");
         System.out.println("Actual Result is: " + re +"\n");
     }
+
+    public int Add(int num1, int num2) {
+        int result = num1 + num2;
+        return result;
+    }
 }
 
-public int Add(int num1, int num2) {
-    int result = num1 + num2;
-    return result;
-}
